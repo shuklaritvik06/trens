@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Trens Logo](./public/logo_1.png)
 
-## Getting Started
+Welcome to Trens! Trens is a web-based application built using Next.js.
 
-First, run the development server:
+![ENS Visualize](./public/ens.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![ETHEREUM CHAIN](./public/ethereum%20chain.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![POLYGON CHAIN](./public/polygon%20chain.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![NEW_VS_TRANSACTION_COUNT](./public/new_vs_transaction.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![HomePage](./public/home.png)
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+To run Trens locally, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
+   ```
+   git clone https://github.com/shuklaritvik06/trens-frontend.git
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Navigate to the project directory:
+   ```
+   cd trens-frontend
+   ```
 
-## Deploy on Vercel
+3. Install dependencies:
+   ```
+   npm install
+   ```
+4. Setup .env.local file
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```
+   Use the .env.example file to create your own .env.local file
+   ```
+5. You can get the Moralis API Key from https://moralis.io/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. Run the development server:
+   ```
+   npm run dev
+   ```
+
+6. Open your browser and visit `http://localhost:3000` to view the application.
+
+### License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
